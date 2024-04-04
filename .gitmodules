@@ -1,3 +1,9 @@
 [submodule "digital-circuit-chatbot-api"]
 	path = digital-circuit-chatbot-api
 	url = https://github.com/eazyistired/digital-circuit-chatbot-api.git
+[submodule "digital-circuit-chatbot-fine-tuning"]
+	path = digital-circuit-chatbot-fine-tuning
+	url = https://github.com/eazyistired/digital-circuit-chatbot-fine-tuning.git
+[submodule "digital-circuit-chatbot-gui"]
+	path = digital-circuit-chatbot-gui
+	url = https://github.com/eazyistired/digital-circuit-chatbot-gui.git
