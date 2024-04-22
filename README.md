@@ -15,7 +15,8 @@ Be careful when using shared resources, if you change/delete something it affect
 
 ``` python start_script.py ```
 
+# Running with automated QA system from database/questions
+
 ``` cd digital-circuit-chatbot-api ```
 
-To run the script with the set of questions stored in database/questions:
 ``` python main_api.py > log.txt```
