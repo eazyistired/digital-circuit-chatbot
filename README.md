@@ -26,3 +26,5 @@ If you want to run on question database:
 Go to *config.json* and change *ask_your_own_questions* from *true* to *false*.
 
 ``` python main_api.py > log.txt```
+
+The results as well as the config object will be stored in *database/results/* folder.
