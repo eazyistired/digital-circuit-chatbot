@@ -19,4 +19,10 @@ Be careful when using shared resources, if you change/delete something it affect
 
 ``` cd digital-circuit-chatbot-api ```
 
+If you want to type your questions in the terminal:
+``` python main_api.py```
+
+If you want to run on question database:
+Go to *config.json* and change *ask_your_own_questions* from *true* to *false*.
+
 ``` python main_api.py > log.txt```
