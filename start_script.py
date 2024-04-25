@@ -23,8 +23,12 @@ if "__main__" == __name__:
     documents_database_dir = "documents"
     questions_database_dir = "questions"
     vector_store_database_dir = "vector_store"
+    results_database_dir = "results"
 
     current_dir = os.path.join(script_dir_path, database_dir)
+    check_dir_or_mkdir(current_dir)
+
+    current_dir = os.path.join(script_dir_path, database_dir, results_database_dir)
     check_dir_or_mkdir(current_dir)
 
     current_dir = os.path.join(script_dir_path, database_dir, documents_database_dir)
