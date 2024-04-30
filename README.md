@@ -10,7 +10,8 @@
 
 ``` pip install -r requirements.txt ```
 
-If you want to upload your own resources open *start_script.py* and change *COPY_RESOURCES* from *True* to *False*. And upload your questions in excel format under */database/questions/* and name it *questions.xlsx*. The header for excel should contain the columns: **_Question, Answer, Context_**
+If you want to upload your own resources open *start_script.py* and change *COPY_RESOURCES* from *True* to *False*. And upload your questions in excel format under */database/questions/* and name it *questions.xlsx*. The header for excel should contain the columns: **_Question, Answer, Context_**.
+
 If you want to use shared resources leave it as it is. Be careful when using shared resources, if you change/delete something it affects all users.
 
 ``` python start_script.py ```
