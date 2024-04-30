@@ -10,20 +10,22 @@
 
 ``` pip install -r requirements.txt ```
 
-If you want to upload your own resources open *start_script.py* and change *COPY_RESOURCES* from *True* to *False*. If you want to use shared resources leave it as it is. 
-Be careful when using shared resources, if you change/delete something it affects all users.
+If you want to upload your own resources open *start_script.py* and change *COPY_RESOURCES* from *True* to *False*. And upload your questions in excel format under */database/questions/* and name it *questions.xlsx*. The header for excel should contain the columns: **_Question, Answer, Context_**
+If you want to use shared resources leave it as it is. Be careful when using shared resources, if you change/delete something it affects all users.
 
 ``` python start_script.py ```
 
-# Running with automated QA system from database/questions
+# Running the script :
 
 ``` cd digital-circuit-chatbot-api ```
 
-If you want to type your questions in the terminal:
+If you want to ask your questions in the terminal:
+Go to *config.json* and set *ask_your_own_questions* to *true*.
+
 ``` python main_api.py```
 
 If you want to run on question database:
-Go to *config.json* and change *ask_your_own_questions* from *true* to *false*.
+Go to *config.json* and set *ask_your_own_questions* to *false*.
 
 ``` python main_api.py > log.txt```
 
