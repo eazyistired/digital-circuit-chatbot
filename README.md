@@ -1,6 +1,7 @@
 # digital-circuit-chatbot
 
 # Initial setup:
+``` cd digital-circuit-chatbot ```
 
 ``` git clone --recursive https://github.com/eazyistired/digital-circuit-chatbot.git ```
 
