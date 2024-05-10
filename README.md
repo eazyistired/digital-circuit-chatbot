@@ -21,9 +21,9 @@ If you want to use shared resources leave it as it is. Be careful when using sha
 
 ``` cd digital-circuit-chatbot-api ```
 
-If you want to ask your questions in the terminal:
-Go to *config.json* and set *ask_your_own_questions* to *true*.
+If you brought your own resources go to *config.json* and change *convert_docs_to_database* from *false* to *true*.
 
+If you want to type your questions in the terminal:
 ``` python main_api.py```
 
 If you want to run on question database:
