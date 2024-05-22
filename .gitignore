@@ -164,3 +164,4 @@ database/documents
 database/questions
 database/vector_store
 .vscode/
+log.txt
