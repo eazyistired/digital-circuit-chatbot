@@ -2,7 +2,7 @@ import os
 
 MODELS_DIR_PATH = "/mnt/Storage1/models"
 RESOURCES_DIR_PATH = "/mnt/Storage1/resources"
-COPY_RESOURCES = True
+COPY_RESOURCES = False
 
 
 def check_dir_or_mkdir(dir_path):
