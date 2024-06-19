@@ -17,7 +17,7 @@
 
 ### Create knowledge database
 
-Add the .pdf files that you want to use as knowledge database in the *project_directory*/*database*/*documents*/ folder. 
+Add the .pdf files that you want to use as knowledge database in the *project_directory*/*database*/*documents*/ folder. With VsCode you can just drag and drop them.
 
 ### Change LLM - optional, we recommend you stick with the default one
 
