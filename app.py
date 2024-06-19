@@ -88,7 +88,11 @@ with demo:
     #     fn=upload_files, inputs=uploaded_files, outputs=[uploaded_files]
     # )
 
-    # submit_btn.click(get_response, inputs=[text_input], outputs=[chatbot])
+    submit_btn.click(
+        get_response,
+        inputs=[text_input, chat_history],
+        outputs=[text_input, chat_history, retrieved_docs],
+    )
 
 
 if __name__ == "__main__":
